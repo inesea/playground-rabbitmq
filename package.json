@@ -1,0 +1,16 @@
+{
+  "name": "try-rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "publish": "node src/publisher.js",
+    "consume": "node src/consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.8.0"
+  }
+}
